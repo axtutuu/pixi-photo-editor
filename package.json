@@ -7,7 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.2.4",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.7.2",
+    "pixi.js": "^4.8.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.5.1",
