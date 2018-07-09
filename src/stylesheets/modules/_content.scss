@@ -1,0 +1,15 @@
+.content {
+
+  &:not(:root) {
+    padding-left: 300px;
+    box-sizing: border-box;
+  }
+
+  & &__editor {
+    display: block;
+    background-color: black;
+    max-width: 95%;
+    margin: 32px auto;
+    width: 512px;
+  }
+}

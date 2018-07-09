@@ -4,12 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parcel Starter-Kit</title>
+  <title>PIXI Photo Editor</title>
 </head>
 
 <body>
-  <h1>Parcel Starter Kit</h1>
+  <div class="content">
+    <div class="sidebar">
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Effect</h2>
+        <ul class="effect">
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Stamp</h2>
+        <ul class="effect effect_wrap">
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Upload</h2>
+        <div class="form">
+          <label for="file" class="form__label">アップロード</label>
+          <input id="file" class="form__file-input" type="file" />
+        </div>
+      </div>
+
+      <div class="sidebar__save">保存</div>
+    </div>
+
+    <canvas class="content__editor js-canvas" width="800" height="640"></canvas>
+  </div>
   <script src="./javascripts/index.js"></script>
 </body>
-
 </html>
