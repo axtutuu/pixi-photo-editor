@@ -3,6 +3,7 @@
   &:not(:root) {
     padding-left: 300px;
     box-sizing: border-box;
+    min-width: 780px;
   }
 
   & &__editor {
