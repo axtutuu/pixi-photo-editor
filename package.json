@@ -1,0 +1,19 @@
+{
+  "name": "parcel-starter-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pocke777/parcel-starter-kit.git",
+  "author": "kawasaki-atsushi @pickrusu",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.5.1",
+    "postcss-modules": "^1.1.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  }
+}
