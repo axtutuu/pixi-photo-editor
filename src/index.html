@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parcel Starter-Kit</title>
+  <title>PIXI Photo Editor</title>
 </head>
 
 <body>
-  <h1>Parcel Starter Kit</h1>
+  <div class="content">
+    <canvas class="content__editor js-canvas" width="780" height="320"></canvas>
+    <div class="content__control">
+      <ul class="effect">
+        <li class="effect__list">
+          <img class="effect__img" src="images/girl_13.png" />
+        </li>
+        <li class="effect__list">
+          <img class="effect__img" src="images/girl_13.png" />
+        </li>
+      </ul>
+      <ul class="effect">
+      </ul>
+    </div>
+
+    <div class="content__save">保存</div>
+  </div>
   <script src="./javascripts/index.js"></script>
 </body>
 

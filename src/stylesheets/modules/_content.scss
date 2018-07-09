@@ -1,0 +1,20 @@
+.content {
+  & &__editor {
+    display: block;
+    background-color: black;
+  }
+
+  & &__control {
+    display: flex;
+  }
+
+  & &__save {
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+  }
+}

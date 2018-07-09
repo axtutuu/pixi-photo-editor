@@ -1,0 +1,11 @@
+.effect {
+  &:not(:root) {
+    background-color: rgba(black, .4);
+    display: block;
+    border-style: none;
+  }
+
+  & &__img {
+    width: 45px;
+  }
+}
