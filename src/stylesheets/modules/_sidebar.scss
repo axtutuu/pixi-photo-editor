@@ -1,0 +1,33 @@
+.sidebar {
+
+  &:not(:root) {
+    background-color: #fafafa;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid rgba(black,.07);
+    color: #364149;
+  }
+
+  & &__title {
+    margin: 16px 8px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(black, .07);
+  }
+
+  & &__save {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 160px;
+    height: 40px;
+    background-color: rgba(black,.07);
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+  }
+}

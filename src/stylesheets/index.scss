@@ -5,5 +5,7 @@ body {
   font-size: 62.5%;
 }
 
+@import "./modules/_reset";
 @import "./modules/_content";
 @import "./modules/_effect";
+@import "./modules/_sidebar";

@@ -9,23 +9,39 @@
 
 <body>
   <div class="content">
-    <canvas class="content__editor js-canvas" width="780" height="320"></canvas>
-    <div class="content__control">
-      <ul class="effect">
-        <li class="effect__list">
-          <img class="effect__img" src="images/girl_13.png" />
-        </li>
-        <li class="effect__list">
-          <img class="effect__img" src="images/girl_13.png" />
-        </li>
-      </ul>
-      <ul class="effect">
-      </ul>
+    <div class="sidebar">
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Effect</h2>
+        <ul class="effect">
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+          <li class="effect__list"> Effect Name </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Stamp</h2>
+        <ul class="effect effect_wrap">
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="images/girl_13.png" />
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar__save">保存</div>
     </div>
 
-    <div class="content__save">保存</div>
+    <canvas class="content__editor js-canvas" width="800" height="640"></canvas>
   </div>
   <script src="./javascripts/index.js"></script>
 </body>
-
 </html>
