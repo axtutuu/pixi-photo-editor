@@ -1,4 +1,8 @@
 import * as PIXI from 'pixi.js'
+import {
+  CANVAS_WIDTH,
+  CANVAS_HEIGHT
+} from './Constants'
 
 export default class Stamp extends PIXI.Container {
   constructor(opts={}) {
@@ -7,11 +11,12 @@ export default class Stamp extends PIXI.Container {
     this.target = null
     this.sprite = new PIXI.Sprite.fromImage(opts.image)
     this.sprite.interactive = true
-    this.sprite.x = 0
-    this.sprite.y = 0
+    this.sprite.buttonMode = true
     this.sprite.width = 100
     this.sprite.height = 100
     this.sprite.anchor.set(0.5, 0.5)
+    this.sprite.x = CANVAS_WIDTH / 2
+    this.sprite.y = CANVAS_HEIGHT /2
     this.addChild(this.sprite)
 
     this.sprite

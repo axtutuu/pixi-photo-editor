@@ -1,8 +1,10 @@
 import * as PIXI from 'pixi.js'
 import Stamp from './Stamp'
+import {
+  CANVAS_WIDTH,
+  CANVAS_HEIGHT
+} from './Constants'
 
-const CANVAS_WIDTH = 800
-const CANVAS_HEIGHT = 640
 
 export default class App {
   constructor(opts) {
