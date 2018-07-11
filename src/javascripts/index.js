@@ -26,6 +26,8 @@ filter.addEventListener('click', (e) => {
 const stampBtn = document.querySelector('.js-stamp')
 stampBtn.addEventListener('click', (e) => {
   const url = e.target.src
+  if (!url) return
+
   app.addStamp(url)
 })
 
