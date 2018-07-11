@@ -8,11 +8,9 @@
 
 ![gif](./doc/gif.gif)
 
-## 
-
 ## Project Size
 
-** Total 169lines **
+**Total 169 lines**
 
 ```
 $ wc src/javascripts/**/*.js
@@ -24,6 +22,7 @@ $ wc src/javascripts/**/*.js
 ```
 
 ## Usage
+
 ```
 yarn install
 yarn start
