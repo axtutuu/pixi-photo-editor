@@ -9,10 +9,11 @@ export default class App {
       width:           CANVAS_WIDTH,
       height:          CANVAS_HEIGHT,
       view:            opts.canvas,
-      backgroundColor: 0xFFC1FA,
     })
 
     this.stage = new PIXI.Container()
+    this.stage.width = CANVAS_WIDTH
+    this.stage.height = CANVAS_HEIGHT
     this.ticker = PIXI.ticker.shared
 
     this.ticker.add(() => {
@@ -61,5 +62,11 @@ export default class App {
       default:
         break
     }
+  }
+
+  export() {
+    if (this.stage.children.length < 1) return false
+
+    return this.renderer.extract.base64(this.stage)
   }
 }
