@@ -23,6 +23,12 @@ filter.addEventListener('click', (e) => {
   app.setFilter(type)
 })
 
+const stampBtn = document.querySelector('.js-stamp')
+stampBtn.addEventListener('click', (e) => {
+  const url = e.target.src
+  app.addStamp(url)
+})
+
 const exportBtn = document.querySelector('.js-export')
 exportBtn.addEventListener('click', () => {
   const base64 = app.export()

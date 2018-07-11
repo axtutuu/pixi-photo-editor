@@ -1,4 +1,5 @@
 import * as PIXI from 'pixi.js'
+import Stamp from './Stamp'
 
 const CANVAS_WIDTH = 800
 const CANVAS_HEIGHT = 640
@@ -68,5 +69,12 @@ export default class App {
     if (this.stage.children.length < 1) return false
 
     return this.renderer.extract.base64(this.stage)
+  }
+
+  addStamp(url) {
+    const stamp = new Stamp({
+      image: url
+    })
+    this.stage.addChild(stamp)
   }
 }
