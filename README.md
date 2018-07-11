@@ -1,4 +1,4 @@
-# 📷Simple Pixi Photo Editor Project
+# 📷Simple Pixi Photo Editor App
 
 **Total 169 lines**
 ```
