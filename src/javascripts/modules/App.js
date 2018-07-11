@@ -5,7 +5,6 @@ import {
   CANVAS_HEIGHT
 } from './Constants'
 
-
 export default class App {
   constructor(opts) {
     this.renderer = PIXI.autoDetectRenderer({
