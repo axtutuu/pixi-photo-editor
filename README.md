@@ -1,5 +1,6 @@
 # Simple Pixi Photo Editor Project
 
+|||
 | ------------- | ------------- |
 | module bundler | [Parcel](https://github.com/parcel-bundler/parcel)  |
 | Javascript     | [ES2015](http://www.ecma-international.org/ecma-262/6.0/index.html)/[PixiJS](https://github.com/pixijs/pixi.js)  |
