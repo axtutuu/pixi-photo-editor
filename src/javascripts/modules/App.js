@@ -12,6 +12,7 @@ export default class App {
       width:           CANVAS_WIDTH,
       height:          CANVAS_HEIGHT,
       view:            opts.canvas,
+      preserveDrawingBuffer: true
     })
 
     this.stage = new PIXI.Container()
@@ -70,7 +71,7 @@ export default class App {
   export() {
     if (this.stage.children.length < 1) return false
 
-    return this.renderer.extract.base64(this.stage)
+    return this.renderer.view.toDataURL("image/png")
   }
 
   addStamp(url) {
