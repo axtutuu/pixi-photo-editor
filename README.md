@@ -1,17 +1,6 @@
 # Simple Pixi Photo Editor Project
 
-|||
-| ------------- | ------------- |
-| module bundler | [Parcel](https://github.com/parcel-bundler/parcel)  |
-| Javascript     | [ES2015](http://www.ecma-international.org/ecma-262/6.0/index.html)/[PixiJS](https://github.com/pixijs/pixi.js)  |
-| CSS            | [Sass](http://sass-lang.com/)/[Autoprefixer](https://github.com/postcss/autoprefixer)  |
-
-![gif](./doc/gif.gif)
-
-## Project Size
-
 **Total 169 lines**
-
 ```
 $ wc src/javascripts/**/*.js
       41     112    1150 src/javascripts/index.js
@@ -21,7 +10,15 @@ $ wc src/javascripts/**/*.js
      169     401    4202 total
 ```
 
+
+![gif](./doc/gif.gif)
+
+
 ## Usage
+
+| module bundler | [Parcel](https://github.com/parcel-bundler/parcel)  |
+| Javascript     | [ES2015](http://www.ecma-international.org/ecma-262/6.0/index.html)/[PixiJS](https://github.com/pixijs/pixi.js)  |
+| CSS            | [Sass](http://sass-lang.com/)/[Autoprefixer](https://github.com/postcss/autoprefixer)  |
 
 ```
 yarn install
