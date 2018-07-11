@@ -14,3 +14,11 @@ fileInput.addEventListener('change', (e) => {
     app.setImage(url, img.width, img.height)
   }
 })
+
+const filter = document.querySelector('.js-filter')
+filter.addEventListener('click', (e) => {
+  const type = e.target.getAttribute('data-filter')
+  if (!type) return
+
+  app.setFilter(type)
+})
