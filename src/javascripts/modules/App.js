@@ -34,7 +34,7 @@ export default class App {
     sprite.x = CANVAS_WIDTH / 2
     sprite.y = CANVAS_HEIGHT / 2
 
-    his.stage.addChild(sprite)
+    this.stage.addChild(sprite)
     this.renderer.render(this.stage)
   }
 
