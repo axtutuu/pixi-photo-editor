@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PIXI Photo Editor</title>
+<link rel="stylesheet" href="/javascripts.3d32d16e.css"></head>
+
+<body>
+  <div class="content">
+    <div class="sidebar">
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Filter</h2>
+        <ul class="effect js-filter">
+          <li class="effect__list" data-filter="blur"> Blur Filter </li>
+          <li class="effect__list" data-filter="color"> ColorMatrix Filter </li>
+          <li class="effect__list" data-filter="alpha"> Alpha Filter </li>
+          <li class="effect__list" data-filter="noise"> Noise Filter </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Stamp</h2>
+        <ul class="effect effect_wrap js-stamp">
+          <li class="effect__list">
+            <img class="effect__img" src="/girl_13.6d356b1b.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/atama_taisou.68b03a24.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/body_character_hizou_bad.1465e68b.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/body_character_hone_tsuyoi.ec50de8e.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/body_hemoglobin_o2_ketsugou.a517d44d.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/body_kinniku_yowai_character.ded46c11.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/character_noukin.8acea7dd.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/medical_virus_koutai.36c00c7e.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/pose_tomeru_keisatsukan.dbca522a.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/shinpai_haha_woman_middle.8d8837b2.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/unchi_character_katai.1a515584.png">
+          </li>
+          <li class="effect__list">
+            <img class="effect__img" src="/unchi_character_yawarakai.cc868315.png">
+          </li>
+        </ul>
+      </div>
+      <div class="sidebar__content">
+        <h2 class="sidebar__title">Upload</h2>
+        <div class="form">
+          <label for="file" class="form__label">アップロード</label>
+          <input id="file" class="form__file-input js-file-input" type="file" accept="image/*">
+        </div>
+      </div>
+
+      <div class="sidebar__save js-export">Export</div>
+    </div>
+
+    <canvas class="content__editor js-canvas" width="800" height="640"></canvas>
+  </div>
+  <script src="/javascripts.3d32d16e.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.content:not(:root) {
+  padding-left: 300px;
+  box-sizing: border-box;
+  min-width: 780px; }
+
+.content .content__editor {
+  display: block;
+  background-color: black;
+  max-width: 95%;
+  margin: 32px auto;
+  width: 512px; }
+
+.effect:not(:root) {
+  list-style: none;
+  max-height: 190px;
+  overflow-y: scroll;
+  margin: 16px; }
+
+.effect.effect_wrap {
+  display: flex;
+  flex-wrap: wrap; }
+
+.effect .effect__list {
+  margin: 8px;
+  cursor: pointer; }
+
+.effect .effect__img {
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  width: 70px;
+  border-radius: 50%; }
+
+.sidebar:not(:root) {
+  background-color: #fafafa;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+  color: #364149; }
+
+.sidebar .sidebar__title {
+  margin: 16px 8px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+
+.sidebar .sidebar__save {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 160px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.07);
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer; }
+
+.form .form__file-input {
+  display: none; }
+
+.form .form__label {
+  display: block;
+  width: 160px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  margin: 0 auto;
+  font-weight: bold;
+  cursor: pointer; }
